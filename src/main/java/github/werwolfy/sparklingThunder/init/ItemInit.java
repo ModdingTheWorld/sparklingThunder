@@ -31,5 +31,9 @@ public class ItemInit {
 
 
 
-
+        public static final RegistryObject<Item> AMETHYST_GOLD_TIP =  ITEMS.register("amethyst_gold_tip",
+            () -> new Item(new Item.Properties()
+                    .stacksTo(16)
+                    .rarity(Rarity.UNCOMMON)
+            ));
 }

@@ -17,6 +17,7 @@ public class SparklingThunder {
 
         ItemInit.ITEMS.register(eventBus);
         BlockInit.BLOCKS.register(eventBus);
+        CreativeTabInit.TABS.register(eventBus);
 
     }
 }
