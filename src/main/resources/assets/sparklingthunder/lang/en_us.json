@@ -1,3 +1,5 @@
 {
-  "item.sparklingthunder.amethyst_spear": "Amethyst Spear"
+  "item.sparklingthunder.amethyst_gold_tip": "Golden Amethyst Tip",
+  "block.sparklingthunder.example_block": "Example Block",
+  "itemGroup.cretive_tab": "Sparkling Thunder"
 }

@@ -1,4 +1,6 @@
 package github.werwolfy.sparklingThunder;
+import github.werwolfy.sparklingThunder.init.BlockInit;
+import github.werwolfy.sparklingThunder.init.CreativeTabInit;
 import github.werwolfy.sparklingThunder.init.ItemInit;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.fml.common.Mod;
@@ -14,5 +16,7 @@ public class SparklingThunder {
         IEventBus eventBus = context.getModEventBus();
 
         ItemInit.ITEMS.register(eventBus);
+        BlockInit.BLOCKS.register(eventBus);
+
     }
 }
