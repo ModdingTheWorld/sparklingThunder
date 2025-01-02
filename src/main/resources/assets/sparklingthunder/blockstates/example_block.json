@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "" : {
+      "model" : "sparklingthunder:block/example_block"
+    }
+  }
+}

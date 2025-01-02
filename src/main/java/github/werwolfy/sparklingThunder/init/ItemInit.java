@@ -12,28 +12,26 @@ import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.registries.RegistryObject;
 
+import static github.werwolfy.sparklingThunder.init.CreativeTabInit.addToTab;
+
 
 public class ItemInit {
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, SparklingThunder.MOD_ID);
 
-/*    public static final RegistryObject<Item> AMETHYST_GOLD_TIP = addToTab( ITEMS.register("amethyst_gold_tip",
+    public static final RegistryObject<Item> AMETHYST_GOLD_TIP = addToTab( ITEMS.register("amethyst_gold_tip",
             () -> new Item(new Item.Properties()
                     .stacksTo(16)
-                    .rarity(Rarity.UNCOMMON)
+                    .rarity(Rarity.COMMON)
             )));
     public static final RegistryObject<BlockItem> EXAMPLE_BLOCK_ITEM = addToTab(ITEMS.register("example_block",
             () -> new BlockItem(BlockInit.EXAMPLE_BLOCK.get(),
                     new Item.Properties()
-                            .rarity(Rarity.RARE)
-            )));*/
+                            .rarity(Rarity.COMMON)
+            )));
 
 
 
 
 
-        public static final RegistryObject<Item> AMETHYST_GOLD_TIP =  ITEMS.register("amethyst_gold_tip",
-            () -> new Item(new Item.Properties()
-                    .stacksTo(16)
-                    .rarity(Rarity.UNCOMMON)
-            ));
+
 }
